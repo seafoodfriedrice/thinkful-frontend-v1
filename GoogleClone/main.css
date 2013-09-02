@@ -143,7 +143,7 @@ ol > li:hover {
         -webkit-box-shadow: 0 1px 1px rgba(50,50,50,0.15);
     }
 
-#footer {
+footer {
     position: fixed;
     background-color: #fff;
     right: 0;

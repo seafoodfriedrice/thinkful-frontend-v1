@@ -16,7 +16,7 @@ $(document).ready(function() {
         } else if (guess == win) {
             reply = "We have a winner! It took you " + tries + " tries!";
             $('#response').html('');
-            $('#guess-field').prop('disabled', true);
+            $('#guess-field, #guess').prop('disabled', true);
         } else if (guess == "") {
             reply = "I can't read your mind. You need to enter a number.<br />";
         } else if (guess == 0) {

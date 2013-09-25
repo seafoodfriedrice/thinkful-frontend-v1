@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    random = function() {
+    function random() {
         r = Math.floor(Math.random() * 100);
         console.log(r);
         return r;
-    } // Why do I need to exclude var here?
+    }
     win = random();
     tries = 0;
 
@@ -25,9 +25,9 @@ $(document).ready(function() {
         } else if (isNaN(guess)) {
             reply = "That isn't a number.<br />";
         } else if (difference < 20 && difference >= 5) {
-            reply = "Getting warming. But still " + hint;
+            reply = "Getting warmer. But still " + hint;
         } else if (difference < 5) {
-            reply = "Burning up! Just a little " + hint;
+            reply = "Burning up! Just slightly " + hint;
         } else {
             reply = "You are colder than a polar bear's" +
                 " toenail because you are way " + hint;
@@ -46,10 +46,10 @@ $(document).ready(function() {
         g.val(''); 
     });
 
-    $('#again').click(function() {
+    $('#new-game').click(function() {
         win = random();
         $('#response').html('');
-        $('#guess-field').prop('disabled', false);
+        $('#guess-field, #guess').prop('disabled', false);
         tries = 0;
     });
 });

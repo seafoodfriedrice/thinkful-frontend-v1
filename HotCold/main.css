@@ -26,6 +26,10 @@ h1 {
     margin: 15px;
 }
 
+#response {
+    color: #679b00;
+}
+
 footer {
     position: absolute;
     left: 0;

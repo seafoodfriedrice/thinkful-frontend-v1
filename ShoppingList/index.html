@@ -2,11 +2,23 @@
 <html>
 <head>
     <title>Shopping List</title>
-    <link rel="stylesheet" href="reset.css" type="text/css">
-    <link rel="stylesheet" href="main.css" type="text/css">
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="application.js"></script>
 </head>
 <body>
 <div id="container">
+    <h1>Shopping List</h1>
+    <input type="text" name="item-field" id="item-field" placeholder="Enter a shopping list item">
+    <input type="submit" value="Add Item" id="add-btn">
+    <ul id="items">
+        <li>
+            <!-- <span class="icon"><i class="icon-check-empty"></i></span> -->
+            <span class="item">Peas</span>
+        </li>
+    </ul>
 </div>
 </body>
 </html>

@@ -2,9 +2,11 @@ body {
     font-family: 'Arial', serif;
     font-size: 18px;
 }
+
 h1 {
     font-size: 32px;
 }
+
 #container {
     padding-top: 20px;
     padding-left: 20px;
@@ -13,16 +15,20 @@ h1 {
     width: 400px;
     border: 1px solid #ccc;
 }
+
 #item-field {
     margin: 20px 0;
 }
+
 li {
     padding: 5px;
 }
+
 #items > li:hover {
     cursor: pointer;
     background-color: #ccc;
 }
+
 .strikethrough {
     text-decoration: line-through;
 }

@@ -3,32 +3,47 @@ body {
     font-size: 18px;
 }
 
-h1 {
-    font-size: 32px;
+#container {
+    margin: 30px auto;
+    width: 450px;
+    border: 1px solid #ccc;
 }
 
-#container {
+#top-ui {
+    margin-left: 20px;
+    border-bottom: none;
+}
+
+h1 {
     padding-top: 20px;
-    padding-left: 20px;
-    margin: 30px auto;
-    height: 200px;
-    width: 400px;
-    border: 1px solid #ccc;
+    font-size: 32px;
 }
 
 #item-field {
     margin: 20px 0;
+    width: 330px;
 }
 
 li {
-    padding: 5px;
+    padding: 5px 20px;
+}
+
+li:last-child {
+    margin-bottom: 20px;
 }
 
 #items > li:hover {
-    cursor: pointer;
     background-color: #ccc;
+}
+
+.item, .item-btn {
+    cursor: pointer;
 }
 
 .strikethrough {
     text-decoration: line-through;
+}
+
+.item-btn {
+    float: right;
 }

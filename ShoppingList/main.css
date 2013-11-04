@@ -28,7 +28,7 @@ li {
     padding: 5px 20px;
 }
 
-li:last-child {
+ul {
     margin-bottom: 20px;
 }
 

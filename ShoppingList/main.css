@@ -1,12 +1,22 @@
 body {
-    font-family: 'Arial', serif;
+    font-family: 'Open Sans', 'Arial', serif;
     font-size: 18px;
+    color: #333;
 }
 
 #container {
     margin: 30px auto;
     width: 450px;
-    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    border-right: 2px solid #b8b8b8;
+    border-bottom: 2px solid #b8b8b8;
+    border-left: 2px solid #e6e6e6;
+    /* border: 1px solid #ccc;
+    -webkit-box-shadow: 0px 0px 6px rgba(50, 50, 50, 0.15);
+       -moz-box-shadow: 0px 0px 6px rgba(50, 50, 50, 0.15);
+            box-shadow: 0px 0px 6px rgba(50, 50, 50, 0.15);
+            */
 }
 
 #top-ui {
@@ -42,8 +52,21 @@ ul {
 
 .strikethrough {
     text-decoration: line-through;
+    color: #999;
+}
+
+.strikethrough .item-btn {
+    display: block;
+}
+
+.strikethrough .item {
+    text-decoration: line-through;
 }
 
 .item-btn {
     float: right;
+}
+
+input[type="text"], input[type="submit"] {
+    font-family: 'Open Sans', 'Arial', serif; 
 }
